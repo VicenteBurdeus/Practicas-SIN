@@ -131,22 +131,24 @@ def myMethod1(state):
     for i in range(1, 9):
         goal = end_state.index(str(i))
         idx = state.index(str(i))
-        if idx == '0':
-            continue
-        elif goal != idx:
+        if idx != '0' and goal != idx:
             tot += 1
     return tot
 
 # secuencia
 def myMethod2(state):
-    tot = 0
-    if state[4] != '0':
-        tot += 1
-    secuencia = ['1', '2', '3', '6', '9', '8', '7', '1']
-    for i in range(1, 8):
-        if state[i] != secuencia[i-1]+1:
+    tot = 2
+    #secuencia objetivo
+    for i in range (0, 8):
+        now_pos = end_state.index(str(i))
+        next_pos = end_state.index(str((i+1)%8))
+        if int(state[now_pos]) + 1 != int(state[next_pos]) and not (state[now_pos]=='8' and state[next_pos]=='1'):
             tot += 2
-    return tot
+    if end_state.index('0') != state.index('0'):
+        tot += 1
+    if state[4] == 8 and state[0] == 1: 
+        tot -= 2
+    return 3*tot
 
 # filas y columnas
 def myMethod3(state):

@@ -446,6 +446,18 @@ class InterfaceApp:
             main.IDA_B(initialState, main.getManhattanDistance)
             path, cost, counter, depth, runtime, nodes, max_stored = \
                 main.graphf_path, main.graphf_cost, main.graphf_counter, main.graphf_depth, main.time_graphf, main.node_counter, main.max_node_stored
+        elif str(algorithm) == 'MyMethod1':
+            main.graphSearch(initialState, main.function_1, main.myMethod1)
+            path, cost, counter, depth, runtime, nodes, max_stored, memory_rep = \
+                main.graphf_path, main.graphf_cost, main.graphf_counter, main.graphf_depth, main.time_graphf, main.node_counter, main.max_counter, main.max_rev_counter
+        elif str(algorithm) == 'MyMethod2':
+            main.graphSearch(initialState, main.function_1, main.myMethod2)
+            path, cost, counter, depth, runtime, nodes, max_stored, memory_rep = \
+                main.graphf_path, main.graphf_cost, main.graphf_counter, main.graphf_depth, main.time_graphf, main.node_counter, main.max_counter, main.max_rev_counter
+        elif str(algorithm) == 'MyMethod3':
+            main.graphSearch(initialState, main.function_1, main.myMethod3)
+            path, cost, counter, depth, runtime, nodes, max_stored, memory_rep = \
+                main.graphf_path, main.graphf_cost, main.graphf_counter, main.graphf_depth, main.time_graphf, main.node_counter, main.max_counter, main.max_rev_counter
 
     def resetGrid(self):
         """

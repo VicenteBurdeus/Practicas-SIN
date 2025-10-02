@@ -1,0 +1,22 @@
+1. La estrategia de b ́usqueda implementada con la funci ́on heur ́ıstica Secuencias, ¿es un algoritmo
+A∗? Justifica la respuesta.
+No es una funcion A* porque sobreestima (multiplica por 3) la cantidad de pasos necesarios para su resolucion
+
+2. La estrategia de b ́usqueda implementada con la funci ́on heur ́ıstica Filas Columnas, ¿es un
+algoritmo A∗? Justifica la respuesta.
+Si que es un algoritmo A* porque es admisible y consistente. Es admisible porque nunca sobreestima el costo real: para mover una pieza a su posición correcta se necesita al menos 1 movimiento por cada fila o columna incorrecta. Y es consistente porque la diferencia de la heurística entre dos estados adyacentes nunca es mayor que el costo real entre ellos (que es 1 movimiento).
+
+
+3. Compara la estrategia A∗Manhattan con Secuencias e indica cu ́al de las dos estrategias de-
+vuelve mejores soluciones (calidad de la soluci ́on y coste de la b ́usqueda).
+A*Manhattan devuelve mejores soluciones porque:
+- Calidad de la solución: Al ser admisible, garantiza encontrar la solución óptima, mientras que Secuencias al sobreestimar (multiplica por 3) puede no encontrar la solución óptima.
+- Coste de búsqueda: Manhattan tiene una heurística más informativa y precisa, lo que resulta en explorar menos nodos innecesarios durante la búsqueda.
+
+4. Compara las estrategias de b ́usqueda implementadas con las heur ́ısticas Piezas Descolocadas
+y Filas Columnas e indica cu ́al de las dos estrategias devuelve mejores soluciones (calidad de
+la soluci ́on y coste de la b ́usqueda)
+
+Filas Columnas devuelve mejores soluciones:
+- Calidad de la solución: Ambas son admisibles, por lo que las dos encontrarán soluciones óptimas
+- Coste de búsqueda: Filas Columnas es más informativa ya que considera la distancia en términos de filas y columnas incorrectas, no solo si la pieza está mal colocada. Esto proporciona una mejor estimación del costo real y resulta en una búsqueda más dirigida y eficiente.
