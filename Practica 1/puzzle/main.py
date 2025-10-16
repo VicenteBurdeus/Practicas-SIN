@@ -141,10 +141,13 @@ def myMethod2(state):
     #secuencia objetivo
     for i in range (1, 9):
         
-        now_pos = end_state.index(str(i))
-        next_pos = end_state.index(str(((i)%8)+1))
+        now_pos = end_state.index(str(i))#primera posicion
+        #siguiente posicion en funcion de la secuencia del estado final
+        #el mod +1 es para el caso del 8 que debe ir al 1 y el +1 es porque el primer numero de la secuencia es el 1
+        next_pos = end_state.index(str(((i)%8)+1)) 
         
-        print(now_pos, next_pos)
+        #print(now_pos, next_pos)
+        #aqui compara 
         if int(state[now_pos]) + 1 != int(state[next_pos]) and not (state[now_pos]=='8' and state[next_pos]=='1'):
             tot += 2
 
