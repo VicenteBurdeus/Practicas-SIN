@@ -137,17 +137,19 @@ def myMethod1(state):
 
 # secuencia
 def myMethod2(state):
-    tot = 2
+    tot = 0
     #secuencia objetivo
-    for i in range (0, 8):
+    for i in range (1, 9):
+        
         now_pos = end_state.index(str(i))
-        next_pos = end_state.index(str((i+1)%8))
+        next_pos = end_state.index(str(((i)%8)+1))
+        
+        print(now_pos, next_pos)
         if int(state[now_pos]) + 1 != int(state[next_pos]) and not (state[now_pos]=='8' and state[next_pos]=='1'):
             tot += 2
+
     if end_state.index('0') != state.index('0'):
         tot += 1
-    if state[4] == 8 and state[0] == 1: 
-        tot -= 2
     return 3*tot
 
 # filas y columnas
