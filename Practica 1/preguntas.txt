@@ -20,3 +20,11 @@ la soluci ́on y coste de la b ́usqueda)
 Filas Columnas devuelve mejores soluciones:
 - Calidad de la solución: Ambas son admisibles, por lo que las dos encontrarán soluciones óptimas
 - Coste de búsqueda: Filas Columnas es más informativa ya que considera la distancia en términos de filas y columnas incorrectas, no solo si la pieza está mal colocada. Esto proporciona una mejor estimación del costo real y resulta en una búsqueda más dirigida y eficiente.
+
+
+Ejemplo : si es una heuristica admisible
+ comparar solution cost
+ analisis de sobreestimacion
+Es un aheirusitica + o - informada que otra
+ tinee un valor mas alto sin pasarse
+ compara Nodos generados

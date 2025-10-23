@@ -125,7 +125,7 @@ def getEuclideanDistance(state):
 
 
 
-#piezas descolocadas
+#piezas_descolocadas
 def myMethod1(state):        
     tot = 0
     for i in range(1, 9):
@@ -155,7 +155,7 @@ def myMethod2(state):
         tot += 1
     return 3*tot
 
-# filas y columnas
+# filas_y_columnas
 def myMethod3(state):
     tot = 0
     for i in range(1, 9):

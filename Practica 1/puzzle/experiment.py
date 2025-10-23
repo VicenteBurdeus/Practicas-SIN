@@ -72,7 +72,9 @@ class PerformanceEvaluator:
         'a_star_euclidean': ('graphSearch', {'function_g': main.function_1, 'function_h': main.getEuclideanDistance}),
         
         # ADD YOUR NEW ALGORITHMS BELOW THIS LINE:
-        
+        'piezas_descolocadas': ('graphSearch', {'function_g': main.function_1, 'function_h': main.myMethod1}),
+        'secuencia': ('graphSearch', {'function_g': main.function_1, 'function_h': main.myMethod2}),
+        'filas_y_columnas': ('graphSearch', {'function_g': main.function_1, 'function_h': main.myMethod3}),
         # ADD YOUR NEW ALGORITHMS ABOVE THIS LINE
     }
     # ============================================================================
