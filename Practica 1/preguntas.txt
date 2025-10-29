@@ -39,9 +39,8 @@ la soluci ́on y coste de la b ́usqueda)
 Filas Columnas devuelve mejores soluciones:
 - Calidad de la solución: Ambas son admisibles, por lo que las dos encontrarán soluciones óptimas
 - Coste de búsqueda: Filas Columnas es más informativa ya que considera la distancia en términos de filas y columnas incorrectas, no solo si la pieza está mal colocada. Esto proporciona una mejor estimación del costo real y resulta en una búsqueda más dirigida y eficiente.
-
-Ambas son admisible por lo cual devolveran soluciones optimas 
-el metodo Filas y comumnas es mejor ya que este genera menos nodos y requiere menos tiempo total para resolverlo como se puede apreciar en estas tablas
+- Ambas son admisible por lo cual devolveran soluciones optimas 
+- El metodo Filas y comumnas es mejor ya que este genera menos nodos y requiere menos tiempo total para resolverlo como se puede apreciar en estas tablas
 
 ============================================================
 PERFORMANCE EVALUATION RESULTS

@@ -53,10 +53,11 @@ Por lo cual podemos asumir que A* Manhattan está más informada que piezas_desc
 
 Filas Columnas devuelve mejores soluciones:
 
+* Ambas son admisibles por lo cual devolverán soluciones óptimas.
 * **Calidad de la solución:** Ambas son admisibles, por lo que las dos encontrarán soluciones óptimas.
 * **Coste de búsqueda:** Filas Columnas es más informativa ya que considera la distancia en términos de filas y columnas incorrectas, no solo si la pieza está mal colocada. Esto proporciona una mejor estimación del coste real y resulta en una búsqueda más dirigida y eficiente.
 
-Ambas son admisibles por lo cual devolverán soluciones óptimas.
+
 El método Filas y Columnas es mejor ya que este genera menos nodos y requiere menos tiempo total para resolverlo como se puede apreciar en estas tablas:
 
 ---
