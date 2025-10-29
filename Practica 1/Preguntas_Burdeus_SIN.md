@@ -1,5 +1,3 @@
-Perfecto 👍 Aquí tienes el texto original con **solo las faltas de ortografía corregidas**, sin cambiar estructura ni contenido:
-
 ---
 
 # 1. La estrategia de búsqueda implementada con la función heurística Secuencias, ¿es un algoritmo A∗? Justifica la respuesta.
