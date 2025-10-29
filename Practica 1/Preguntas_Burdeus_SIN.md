@@ -1,5 +1,3 @@
----
-
 # 1. La estrategia de búsqueda implementada con la función heurística Secuencias, ¿es un algoritmo A∗? Justifica la respuesta.
 
 ```bash
