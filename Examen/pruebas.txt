@@ -1,0 +1,32 @@
+State:  283164705 Solvable: True
+  Descolocadas:  4
+  Secuencias:  33
+  Fila-Columna:  5
+State:  023845716 Solvable: True
+  Descolocadas:  4
+  Secuencias:  33
+  Fila-Columna:  5
+State:  781406235 Solvable: True
+  Descolocadas:  7
+  Secuencias:  36
+  Fila-Columna:  11
+State:  123405876 Solvable: True
+  Descolocadas:  5
+  Secuencias:  18
+  Fila-Columna:  5
+State:  802647513 Solvable: True
+  Descolocadas:  8
+  Secuencias:  45
+  Fila-Columna:  11
+State:  812037654 Solvable: True
+  Descolocadas:  8
+  Secuencias:  27
+  Fila-Columna:  10
+State:  328510476 Solvable: True
+  Descolocadas:  7
+  Secuencias:  39
+  Fila-Columna:  11
+State:  876105234 Solvable: True
+  Descolocadas:  8
+  Secuencias:  48
+  Fila-Columna:  12

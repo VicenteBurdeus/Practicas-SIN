@@ -1,0 +1,7 @@
+Algorithm,Total_Puzzles,Solved_Puzzles,Success_Rate,Metric,Mean,Median,Min,Max,Std_Dev
+a_star_manhattan,10,10,100.0%,nodes_generated,905.6000,731.5000,149.0000,2209.0000,718.6860
+a_star_manhattan,10,10,100.0%,nodes_expanded,332.8000,269.0000,56.0000,805.0000,263.0812
+a_star_manhattan,10,10,100.0%,max_memory,538.5000,441.5000,94.0000,1289.0000,418.9928
+a_star_manhattan,10,10,100.0%,solution_cost,20.8000,22.0000,16.0000,24.0000,2.3476
+a_star_manhattan,10,10,100.0%,max_depth,20.8000,22.0000,16.0000,24.0000,2.3476
+a_star_manhattan,10,10,100.0%,execution_time,0.0126,0.0102,0.0010,0.0289,0.0108

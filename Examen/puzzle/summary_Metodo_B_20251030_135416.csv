@@ -1,0 +1,7 @@
+Algorithm,Total_Puzzles,Solved_Puzzles,Success_Rate,Metric,Mean,Median,Min,Max,Std_Dev
+Metodo_B,10,10,100.0%,nodes_generated,912.8000,646.5000,390.0000,2574.0000,727.9601
+Metodo_B,10,10,100.0%,nodes_expanded,309.5000,226.5000,122.0000,856.0000,242.9112
+Metodo_B,10,10,100.0%,max_memory,565.2000,404.0000,236.0000,1559.0000,445.0288
+Metodo_B,10,10,100.0%,solution_cost,25.4000,25.0000,20.0000,30.0000,3.5340
+Metodo_B,10,10,100.0%,max_depth,27.0000,25.5000,22.0000,35.0000,4.5461
+Metodo_B,10,10,100.0%,execution_time,0.0117,0.0030,0.0000,0.0474,0.0164
